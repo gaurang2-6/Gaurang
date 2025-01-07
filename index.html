@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Poetry Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #000;
+            background-color: #fff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            margin-right: 15px;
+        }
+
+        .visual-poetry {
+            display: flex;
+            align-items: center;
+            padding: 40px;
+            justify-content: space-between;
+        }
+
+        .visual-poetry h1 {
+            font-size: 64px;
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        .visual-poetry p {
+            font-size: 18px;
+            margin: 10px 0 20px;
+        }
+
+        .visual-poetry .stats {
+            display: flex;
+            gap: 20px;
+        }
+
+        .visual-poetry .stats div {
+            font-size: 16px;
+        }
+
+        .visual-poetry img {
+            width: 300px;
+            border-radius: 10px;
+        }
+
+        .portfolio {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+
+        .portfolio h2 {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .portfolio .images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .portfolio img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .exhibitions {
+            padding: 40px 20px;
+        }
+
+        .exhibitions h2 {
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .exhibitions .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+
+        .exhibitions .item h3 {
+            font-size: 20px;
+            margin: 0;
+        }
+
+        .exhibitions .item span {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .exhibitions .item button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">LOGO</div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#exhibitions">Exhibitions</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="visual-poetry">
+        <div>
+            <h1>visual poetry</h1>
+            <p>Welcome to a visual journey that transcends time and space. Discover the artistry of moments captured in motion.</p>
+            <div class="stats">
+                <div>+250k Videos</div>
+                <div>+800k Hours Watched</div>
+            </div>
+        </div>
+        <img src="placeholder-image.jpg" alt="Photographer">
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2>portfolio</h2>
+        <div class="images">
+            <img src="portfolio1.jpg" alt="Portfolio Image 1">
+            <img src="portfolio2.jpg" alt="Portfolio Image 2">
+            <img src="portfolio3.jpg" alt="Portfolio Image 3">
+            <img src="portfolio4.jpg" alt="Portfolio Image 4">
+        </div>
+    </section>
+
+    <section class="exhibitions" id="exhibitions">
+        <h2>exhibitions</h2>
+        <div class="item">
+            <div>
+                <h3>Cinematic Visions Unveiled</h3>
+                <span>Madrid Gallery, Spain, 21 Nov 2023</span>
+            </div>
+            <button>Buy Ticket</button>
+        </div>
+        <div class="item">
+            <div>
+                <h3>Frames in Motion</h3>
+                <span>Manchester Museum, UK, 20 Nov 2023</span>
+            </div>
+            <button>Buy Ticket</button>
+        </div>
+        <div class="item">
+            <div>
+                <h3>Journey Through Time</h3>
+                <span>Milan Gallery, Italy, 19 Nov 2023</span>
+            </div>
+            <button>Buy Ticket</button>
+        </div>
+        <div class="item">
+            <div>
+                <h3>Experimental Narratives</h3>
+                <span>Paris Museum, France, 18 Nov 2023</span>
+            </div>
+            <button>Buy Ticket</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Visual Poetry. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
